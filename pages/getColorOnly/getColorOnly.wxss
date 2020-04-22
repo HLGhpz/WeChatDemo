@@ -1,0 +1,32 @@
+/* pages/getColorRGB/getColorRGB.wxss */
+
+.view-color-slider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-text {
+  padding: 20rpx;
+}
+
+.view-ball {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 80rpx;
+}
+
+.slider-color {
+  width: 500rpx;
+  height: 30rpx;
+  border-radius: 10rpx;
+  margin-left: 30rpx;
+  border: 1px solid gainsboro;
+}
+
+.slider-color {
+  background: -webkit-linear-gradient(left, #f00 0%, #ff0 17%, #0f0 34%, #0ff 51%, #00f 68%, #f0f 85%, #f00 100%);
+}
+

@@ -1,0 +1,6 @@
+<view class="view-color-slider">
+  <view class="view-ball" style="background:{{blockColor}}"></view>
+  <text class="view-text" selectable="ture">{{blockColor}}</text>
+
+  <slider class="slider-color" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlor" block-size="24" value="{{sliderValue}}"></slider>
+</view>

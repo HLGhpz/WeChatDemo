@@ -1,0 +1,10 @@
+<view class="view-color-slider">
+  <view class="view-ball" style="background:{{blockColor}}"></view>
+  <text>{{blockColor}}</text>
+
+  <slider class="slider-color-R" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlorR" block-size="24" value="{{sliderValue}}"></slider>
+
+  <slider class="slider-color-G" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlorG" block-size="24" value="{{sliderValue}}"></slider>
+
+  <slider class="slider-color-B" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlorB" block-size="24" value="{{sliderValue}}"></slider>
+</view>
